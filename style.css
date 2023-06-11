@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center;
   background: #f6f7fb;
+  border-radius: 4px solid red;
 }
 .container {
   display: flex;
@@ -29,10 +30,10 @@
   border: 2px solid #ce5b5b;
 }
 .image img {
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 260px;
 }
-.box .image {
+.box {
   height: 100%;
   width: 100%;
   border-radius: 10px;
@@ -41,5 +42,5 @@
   background-image: url('img.jpg');
 }
 .box.hovered {
-  border: 2px dashed #333;
+  border: 2px solid #333;
 }
